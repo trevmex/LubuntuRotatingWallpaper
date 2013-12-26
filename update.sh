@@ -27,7 +27,6 @@ timing=(
 
 hour=`date +%H`
 
-#setcmd="gsettings set org.gnome.desktop.background picture-uri"
 setcmd="pcmanfm -w"
 
 for i in {7..0..-1}
