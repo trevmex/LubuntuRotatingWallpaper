@@ -5,3 +5,5 @@ This is the same script as described at http://www.reddit.com/r/wallpapers/comme
 For original install notes, go to https://www.dropbox.com/s/swz6k954o4y5osh/Install-and-shizzle.txt
 
 Mush love to BloodyMarvellous and OhMrBigshot for compiling this together.
+
+NOTE: You may have to export your DISPLAY variable. See [this thread](http://stackoverflow.com/questions/19660345/changing-wallpaper-using-pcmanfm-by-crontab) for details.
