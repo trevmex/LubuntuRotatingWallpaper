@@ -27,7 +27,7 @@ timing=(
     23
 )
 
-hour=`date +%H`
+hour=`date +%k`
 
 setcmd="pcmanfm -w"
 
