@@ -3,6 +3,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 files=(
+    08-Late-Night.png
     01-Morning.png
     02-Late-Morning.png
     03-Afternoon.png
@@ -15,6 +16,7 @@ files=(
 
 #Timings for the backgrounds in order. Your life may vary.
 timing=(
+    0
     7
     10
     12
@@ -25,11 +27,11 @@ timing=(
     23
 )
 
-hour=`date +%H`
+hour=`date +%k`
 
 setcmd="pcmanfm -w"
 
-for i in {7..0..-1}
+for i in {8..0..-1}
 do
     if [[ $hour -ge ${timing[i]} ]]; then
         $setcmd $DIR/${files[i]}
